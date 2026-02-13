@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
       {/* Logotypen */}
-      <img src="/logo.png" alt="AIPD Logo" className="w-48 mb-6" />
+      <h1 className="text-5xl font-bold mb-6 text-blue-500">AIPD</h1>
 
       {/* Huvudrubrik */}
       <h1 className="text-4xl font-bold text-blue-800 mb-4">
