@@ -1,18 +1,14 @@
+import './globals.css'
+
 export const metadata = {
-  title: "AIPD – Artificial Intelligence Police Department",
-  description: "AIPD Official Platform"
+  title: 'AIPD Platform',
+  description: 'AI project platform',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="sv">
-      <body style={{ margin: 0 }}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
